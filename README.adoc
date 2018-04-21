@@ -28,9 +28,7 @@ image::https://img.shields.io/badge/editor-vim-brightgreen.svg[Vim ,link={uri-vi
 image:https://img.shields.io/travis/jhinrichsen/backup/master.svg[Build Status (Travis CI), link={uri-ci-travis}]
 endif::[]
 
-// toc::[]
-
-== Overview
+toc::[]
 
 Copy files for backup purposes à la GNU cp --backup=numbered.
 

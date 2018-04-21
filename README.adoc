@@ -1,0 +1,43 @@
+= File backup utility
+// Settings:
+:idprefix:
+:idseparator: -
+ifndef::env-github[:icons: font]
+ifdef::env-github,env-browser[]
+:toc: macro
+:toclevels: 1
+endif::[]
+ifdef::env-github[]
+:branch: master
+:status:
+:outfilesuffix: .adoc
+:!toc-title:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+// URIs:
+:uri-repo: https://github.com/jhinrichsen/backup
+:uri-ci-travis: https://travis-ci.org/jhinrichsen/backup
+
+ifdef::status[]
+image::https://img.shields.io/badge/editor-vim-brightgreen.svg[alt="vim", link="http://www.vim.org"]
+image:https://img.shields.io/travis/jhinrichsen/backup/master.svg[Build Status (Travis CI), link={uri-ci-travis}]
+endif::[]
+
+// toc::[]
+
+== Overview
+
+Copy files for backup purposes à la GNU cp --backup=numbered.
+
+== Installation
+
+    go get github.com/jhinrichsen/backup
+
+== Documentation
+
+Go check out godoc.
+

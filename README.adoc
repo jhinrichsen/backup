@@ -20,10 +20,11 @@ ifdef::env-github[]
 endif::[]
 // URIs:
 :uri-repo: https://github.com/jhinrichsen/backup
+:uri-vim: http://www.vim.org
 :uri-ci-travis: https://travis-ci.org/jhinrichsen/backup
 
 ifdef::status[]
-image::https://img.shields.io/badge/editor-vim-brightgreen.svg[alt="vim", link="http://www.vim.org"]
+image::https://img.shields.io/badge/editor-vim-brightgreen.svg[Vim ,link={uri-vim}]
 image:https://img.shields.io/travis/jhinrichsen/backup/master.svg[Build Status (Travis CI), link={uri-ci-travis}]
 endif::[]
 
